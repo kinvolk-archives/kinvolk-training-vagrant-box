@@ -9,6 +9,7 @@ apt-get install -y \
   ca-certificates \
   curl \
   git \
+  make \
   screen \
   software-properties-common \
   tmux
