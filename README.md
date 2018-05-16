@@ -44,3 +44,19 @@ $ vagrant halt
 ```
 
 That's it!
+
+## Troubleshooting
+
+### HTTP proxy
+
+If you are behind a HTTP proxy, you might need to set the
+http_proxy and https_proxy environment variables (e.g. `set
+https_proxy=https://your_proxy:your_port`) before executing the CLI
+commands (git clone etc).
+
+### vagrant up error
+
+In case `vagrant up` returns an error for the first run due to a
+confirmation dialog from VirtualBox, you can try again with `vagrant
+destroy -f` followed by `vagrant up`. If that does not finish successfully
+either, I will try to help with the setup during the workshop.
