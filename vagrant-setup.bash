@@ -10,6 +10,7 @@ apt-get install -y \
   curl \
   git \
   make \
+  python3-venv \
   screen \
   software-properties-common \
   tmux
